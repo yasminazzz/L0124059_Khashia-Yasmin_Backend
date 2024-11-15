@@ -1,3 +1,6 @@
+// Khashia Yasmin A.
+// L0124059
+
 <?php 
     $db = mysqli_connect('localhost', 'root', '', 'todolist');
 
