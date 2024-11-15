@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDF1D6;
+    margin: 0;
+    padding: 0;
+    color: #40513B;
+}
+
+.heading {
+    background-color: #609966;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input_task {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.add {
+    padding: 10px 20px;
+    background-color: #9DC08B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.add:hover {
+    background-color: #40513B;
+}
+
+table {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+}
+
+th {
+    background-color: #9DC08B;
+    color: #EDF1D6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+td.task {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+td.action {
+    width: 50%;
+    text-align: center;
+}
+
+td.action a {
+    color: #609966;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+td.action a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .input_task {
+        width: 80%;
+    }
+
+    button.add {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th, td {
+        font-size: 14px;
+    }
+}
